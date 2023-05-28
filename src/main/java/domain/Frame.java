@@ -1,2 +1,7 @@
-package domain;public interface Frame {
+package domain;
+
+public interface Frame {
+    void fallingDown(int pinCnt);
+    Status getFrameStatus();
+    int getFrameScore();
 }
